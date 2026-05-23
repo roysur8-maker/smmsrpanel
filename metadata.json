@@ -1,0 +1,8 @@
+{
+  "name": "Remix: RoySMM Global Panel",
+  "description": "All-in-one social media growth platform featuring API connectivity, UTR fund verification, reseller options, and automated order management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
