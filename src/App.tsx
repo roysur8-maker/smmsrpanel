@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 import { AuthProvider, useAuth } from "./lib/AuthContext";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
@@ -30,6 +31,7 @@ export default function App() {
     <AuthProvider>
       <BrowserRouter>
         <AppRoutes />
+        <SpeedInsights />
       </BrowserRouter>
     </AuthProvider>
   );
